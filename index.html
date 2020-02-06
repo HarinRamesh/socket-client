@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Socket</title>
+    </head>
+    <body>
+    <main role="main" class="container">
+        <div class="row"> 
+            <div class="col-xs-8" id="div1">
+                <div class="container">
+                    <h1 class="mt-5">Socket</h1>
+                    <form class="form-inline" id='connect'>
+                        <div class="form-group mx-sm-2 mb-2">
+                            <input type="text" class="form-control" id="ip" placeholder="127.0.0.1.:8000">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Connect</button>
+                    </form>
+                    <form id='send'>
+                        <div class="form-group mx-sm-1 mb-2">
+                        <textarea rows="6" class="form-control" id="msg">{&#13;&#10;&#13;&#10;}</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary float-right" id="sent_btn">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-xs-4" id="div1">
+               <h1 class="mt-5">Response</h1>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">                        
+                        <hr>
+                        <p class="card-text" id="on-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+    </body>
+</html>
