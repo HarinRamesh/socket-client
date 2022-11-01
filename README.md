@@ -6,7 +6,7 @@ You can use simple http server like [Web Server for Chrome](https://chrome.googl
 Steps 
 
 ```
-git clone https://github.com/HarinRamesh/socket-client.git
+$ git clone https://github.com/HarinRamesh/socket-client.git
 ```
 
 if you are using Web Server for Chrome
@@ -18,6 +18,6 @@ Or
 
 You can run development server in Python or anything you prefer, example below shows how it is done in Python.
 ```
-cd socket-client
-python3 -m http.server 8080
+$ cd socket-client
+$ python3 -m http.server 8080
 ```
