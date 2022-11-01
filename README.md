@@ -26,4 +26,4 @@ $ cd socket-client
 $ python3 -m http.server 8887
 ```
 
-Now open http://127.0.0.1:8887 in browser.
+Now open `http://127.0.0.1:8887` in browser.
